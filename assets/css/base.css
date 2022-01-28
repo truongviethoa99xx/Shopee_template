@@ -7,6 +7,9 @@
 
     --border-radius: 2px;
 
+    --header-height: 120px;
+    --navbar-height: 28px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
 }
 
 * {
