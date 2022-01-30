@@ -135,17 +135,64 @@
                                 </g>
                             </svg>                            
                          </div>
-
+                         <!-- Search -->
                          <div class="header__search">
-                            <input type="text" class="header__search-input" placeholder="Tìm sản phẩm, thương hiệu và tên shop">
-                            <button class="header__search-btn">
-                                <i class="header__search-btn-icon bx bx-search"></i>
-                            </button>
-                         </div>
-
+                            <div class="header__search-input-wrap">
+                                <input type="text" class="header__search-input" placeholder="Tìm sản phẩm, thương hiệu và tên shop" />
+                                <!-- search history -->
+                                <div class="header__search-history">
+                                    <h3 class="header__search-history-title">Lịch sử tìm kiếm</h3>
+                                    <ul class="header__search-history-list">
+                                        <li class="header__search-history-item">
+                                            <a class="header__search-history-link">Tìm kiếm sản phẩm</a>
+                                            <i class="header__search-history-icon bx bx-x"></i>
+                                        </li>
+                                        <li class="header__search-history-item">
+                                            <a class="header__search-history-link">Tìm kiếm sản phẩm</a>
+                                            <i class="header__search-history-icon bx bx-x"></i>
+                                        </li>
+                                        <li class="header__search-history-item">
+                                            <a class="header__search-history-link">Tìm kiếm sản phẩm</a>
+                                            <i class="header__search-history-icon bx bx-x"></i>
+                                        </li>
+                                        <li class="header__search-history-item">
+                                            <a class="header__search-history-link">Tìm kiếm sản phẩm</a>
+                                            <i class="header__search-history-icon bx bx-x"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                                <!-- /search history -->
+                                <div class="header__search-menu">
+                                    <a class="header__search-menu-select">Trong Shop này</a>
+                                    <i class="header__search-menu-icon bx bx-chevron-down"></i>
+                                    <div class="header__search-menu-wrap">
+                                        <ul class="header__search-menu-list">
+                                            <li class="header__search-menu-item">
+                                                <span class="header__search-menu-sp">Trong Shop</span>
+                                                <i class="header__search-menu-item-icon bx bx-check"></i>
+                                            </li>
+                                            <li class="header__search-menu-item">
+                                                <span>Ngoài Shop</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="header__search-btn">
+                                    <i class="header__search-btn-icon bx bx-search"></i>
+                                </button>
+                        </div>
+                        
+                        <!-- Cart layout -->
                          <div class="header__cart">
-                            <i class="header__cart-icon bx bx-cart"></i>
-                            <span class="header__cart-quantity">1</span>
+                             <div class="header__cart-wrap">
+                                 <i class="header__cart-icon bx bx-cart"></i>
+                                 <span class="header__cart-quantity">1</span>
+                                 <div class="header__cart-list header__cart-list--no-cart">
+                                     <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/9bdd8040b334d31946f49e36beaf32db.png" alt="Chưa có sản phẩm" class="header__cart-no-cart-img">
+                                     <p class="header__cart-no-cart-text">Chưa có sản phẩm</p>
+                                 </div>
+                             </div>
                          </div>
                     </div>
                 </div>
