@@ -4,6 +4,7 @@
     --text-color: #333;
     --primary-color: #EE4D2D;
     --border-color: #dbdbdb;
+    --gold-color: #FFCE3E;
 
     --border-radius: 2px;
 
@@ -36,21 +37,27 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -12px;
-    margin-right: -12px;
+    margin-left: -5px;
+    margin-right: -5px;
 }
 
 /* test */
 
 .grid__column-2 {
-    padding-left: 12px;
-    padding-right: 12px;  
+    padding-left: 5px;
+    padding-right: 5px;  
     width: 16.66667%;  
 }
 
+.grid__column-2-4 {
+    padding-left: 5px;
+    padding-right: 5px;  
+    width: 20%; 
+}
+
 .grid__column-10 {
-    padding-left: 12px;
-    padding-right: 12px;  
+    padding-left: 5px;
+    padding-right: 5px;  
     width: 83.33333%;  
 }
 
@@ -165,6 +172,7 @@ html {
     justify-content: space-between;
     position: relative;
     cursor: pointer;
+    z-index: 1;
 }
 
 .select-input__label {
